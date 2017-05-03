@@ -49,6 +49,7 @@ public class Film implements Serializable {
     @ManyToMany
     @JoinTable(name = "pays_film")
     private List<Pays> pays = new ArrayList<>();
+    
 
     public Long getId() {
         return id;
